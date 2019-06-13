@@ -1,0 +1,28 @@
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eee;
+
+    .logo {
+      max-width: 555px;
+    }
+
+    .h1,
+    h1 {
+        color: inherit;
+    }
+}
+
+@media screen and (min-width:768px) {
+  .jumbotron {
+      padding-top: 48px;
+      padding-bottom: 48px;
+      
+      .h1,
+      h1 {
+          font-size: 63px
+      }
+  }
+}
